@@ -8,7 +8,7 @@ var nombre: string;
 begin
      write('Ingresa tu nombre: ');
      readln(nombre);
-     write('Ingresa tu edad: ');
+     write(nombre+' Ingresa tu edad: ');
      readln(edad);
      write('Ingresa el nombre de tu familiar: ');
      readln(nombreFam);
